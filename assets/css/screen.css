@@ -56,10 +56,6 @@ body{
     margin: 0 auto;
 }
 
-.text-input{
-    padding-bottom: 2em;
-}
-
 .text-input li{
     display: flex;
     flex-direction: column;
