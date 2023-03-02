@@ -23,7 +23,7 @@
             <ul class="text-input">
                 <li>
                     <label for="full-name">Full Name</label>
-                    <input type="text" name="full-name"  id="full-name" placeholder="Sufyan Khan">
+                    <input type="text" name="full-name"  id="full-name" placeholder="Sufyan Khan" required = "required" pattern = "[A-Z,a-z]{3,}" title = "Use Only Alphabets">
                     <p class="error" id="full-name-error"></p>
                 </li>
                 <li>
@@ -33,7 +33,7 @@
                 </li>
                 <li>
                     <label for="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="xxxx@example.com">
+                    <input type="text" name="email" id="email" placeholder="xxxx@example.com" required>
                     <p class="error" id="email-error"></p>
                 </li>
                 <li>
