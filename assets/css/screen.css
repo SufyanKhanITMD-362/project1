@@ -71,7 +71,7 @@ body{
 }
 
 .text-input li input:focus-visible{
-    border:1px solid darkgrey;
+    border:1px solid #c3bfbf;
 }
 
 .check-input li{
