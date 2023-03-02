@@ -67,7 +67,7 @@ body{
     border:1px solid #c3bfbf;
     font-size: 1em;
     outline: 0;
-    padding: 0.4em 0.5em 0.3em 0.4em;
+    padding: 0.4em 0.1em 0.4em 0.4em;
 }
 
 .text-input li input:focus-visible{
