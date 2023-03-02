@@ -44,8 +44,8 @@ body{
     display: flex;
     flex-direction: column;
     height: max-content;
-    padding: 1.5em 1.1em 1.1em 1.1em;
-    max-width: 40em;
+    padding: 1.1em 1.1em 1.1em 1.1em;
+    max-width: 70em;
     border-radius: 0.2em;
 }
 
