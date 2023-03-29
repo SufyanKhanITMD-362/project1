@@ -1,13 +1,17 @@
-<button id="submit-btn">Create Account</button>
-
 <script>
-  document.getElementById("submit-btn").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevents the default form submission behavior
+  const form = document.getElementById('signup-form');
+  const button = document.getElementById('create-account-button');
 
-    // TODO: Add validation logic here
+  function handleSubmit(event) {
+    // Prevent the default form submission behavior
+    event.preventDefault();
 
-    // If the form is valid, submit it
-    document.getElementById("signup-form").submit();
-  });
+    // TODO: Validate the form data
+    // ...
+
+    // Submit the form
+    form.submit();
+  }
+
+  button.addEventListener('click', handleSubmit);
 </script>
-
