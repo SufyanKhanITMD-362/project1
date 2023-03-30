@@ -32,7 +32,7 @@ body {
   
   /* Only styles that need to change at 800px go here */
   html {
-    background-image: url("../images/homepage-1200.jpg");
+    background-image: url("../images/homepage-1200 .jpg");
   }
 }
 
@@ -70,7 +70,7 @@ body {
   
   /* Only styles that need to change at 1200px go here */
   html {
-    background-image: url("../images/homepage-1200.jpg");
+    background-image: url("../images/homepage-1200 .jpg");
   }
   
   .check-input li {
