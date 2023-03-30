@@ -2,51 +2,47 @@
 <html lang="en">
 
 <head>
-    <title>Project 1</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="assets/css/meyers_and_normalize-form_reset.css" rel="stylesheet" media="screen">
-    <link href="assets/css/screen.css" rel="stylesheet" media="screen">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <script src="assets/js/site.js" async></script>
+  <title>Project 1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="assets/css/meyers_and_normalize-form_reset.css" rel="stylesheet" media="screen">
+  <link href="assets/css/screen.css" rel="stylesheet" media="screen">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="assets/js/site.js" async></script>
 </head>
 
 <body>
-    <header> </header>
-    <main>
-        <section class="overlay">
-            <form class="sign-in" method="get" action="#null" autocomplete="on">
-                <!-- Full Name, Username, Email, Password, Marketing email checkbox, Terms of use checkbox -->
-                <h2>Sign Up</h2>
-                <ul class="text-input">
-                    <li> <label for="full-name">Full Name</label> <input type="text" name="full-name" id="full-name" placeholder="Sufyan Khan">
-                        <p class="error" id="full-name-error"></p>
-                    </li>
-                    <li> <label for="user-name">User Name</label> <input type="text" name="user-name" id="user-name" placeholder="user_name">
-                        <p class="error" id="user-name-error"></p>
-                    </li>
-                    <li> <label for="email">Email</label> <input type="text" name="email" id="email" placeholder="xxxx@example.com" required>
-                        <p class="error" id="email-error"></p>
-                    </li>
-                    <li> <label for="password">Password</label> <input type="password" name="password" id="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="You Must have one number and one lowercase and uppercase letter, and around 7 to 8 characters" required>
-                        <p class="error" id="password-error"></p>
-                    </li>
-                    <li> <label for="confirm-password">Confirm Password</label> <input type="password" name="confirm" id="confirm-password" placeholder="confirm_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="You Must have one number and one lowercase and uppercase letter, and around 7 to 8 characters" required>
-                        <p class="error" id="confirm-password-error"></p>
-                    </li>
-                </ul>
-                <ul class="check-input">
-                    <li> <input type="checkbox" name="marketing" id="marketing"> <label for="marketing">Yes, I want to receive additional info and marketing emails</label> </li>
-                    <li> <input type="checkbox" name="terms" id="terms"> <label for="terms">I agree to the terms and conditions</label>
-                        <p class="error" id="terms-error"></p>
-                    </li>
-                </ul> <button>Create Account</button>
-            </form>
-        </section>
-    </main>
-    <footer> </footer>
-</body>
-
-</html>
+  <header> </header>
+  <main>
+    <section class="overlay">
+      <form class="sign-in" method="get" action="#null" autocomplete="on">
+        <!-- Full Name, Username, Email, Password, Marketing email checkbox, Terms of use checkbox -->
+        <h2>Sign Up</h2>
+        <ul class="text-input">
+          <li> <label for="full-name">Full Name</label> <input type="text" name="full-name" id="full-name" placeholder="Sufyan Khan">
+            <p class="error" id="full-name-error"></p>
+          </li>
+          <li> <label for="user-name">User Name</label> <input type="text" name="user-name" id="user-name" placeholder="user_name">
+            <p class="error" id="user-name-error"></p>
+          </li>
+          <li> <label for="email">Email</label> <input type="text" name="email" id="email" placeholder="xxxx@example.com" required>
+            <p class="error" id="email-error"></p>
+          </li>
+          <li> <label for="password">Password</label> <input type="password" name="password" id="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="You Must have one number and one lowercase and uppercase letter, and around 7 to 8 characters" required>
+            <p class="error" id="password-error"></p>
+          </li>
+          <li> <label for="confirm-password">Confirm Password</label> <input type="password" name="confirm" id="confirm-password" placeholder="confirm_password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="You Must have one number and one lowercase and uppercase letter, and around 7 to 8 characters" required>
+            <p class="error" id="confirm-password-error"></p>
+          </li>
+        </ul>
+        <ul class="check-input">
+          <li> <input type="checkbox" name="marketing" id="marketing"> <label for="marketing">Yes, I want to receive additional info and marketing emails</label> </li>
+          <li> <input type="checkbox" name="terms" id="terms"> <label for="terms">I agree to the terms and conditions</label>
+            <p class="error" id="terms-error"></p>
+          </li>
+        </ul> <input type="submit" value="Create Account">
+      </form>
+    </section>
+  </main>
