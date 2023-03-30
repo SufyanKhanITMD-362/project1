@@ -17,7 +17,7 @@
   <header> </header>
   <main>
     <section class="overlay">
-      <form class="sign-in" method="get" action="#null" autocomplete="on">
+      <form class="sign-in" id="signup-form" method="get" action="#null" autocomplete="on">
         <!-- Full Name, Username, Email, Password, Marketing email checkbox, Terms of use checkbox -->
         <h2>Sign Up</h2>
         <ul class="text-input">
@@ -42,7 +42,7 @@
           <li> <input type="checkbox" name="terms" id="terms"> <label for="terms">I agree to the terms and conditions</label>
             <p class="error" id="terms-error"></p>
           </li>
-        </ul> <input type="submit" value="Create Account">
+        </ul> <button id="create-account-button">Create Account</button>
       </form>
     </section>
   </main>
