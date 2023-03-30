@@ -1,6 +1,5 @@
-<script>
-  const form = document.getElementById('signup-form');
-  const button = document.getElementById('create-account-button');
+const form = document.getElementById('signup-form');
+const button = document.getElementById('create-account-button');
 
   function handleSubmit(event) {
     // Prevent the default form submission behavior
@@ -14,4 +13,3 @@
   }
 
   button.addEventListener('click', handleSubmit);
-</script>
